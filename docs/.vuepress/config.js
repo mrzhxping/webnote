@@ -8,7 +8,7 @@ const { backToTopPlugin } = require('@vuepress/plugin-back-to-top');
 const { nprogressPlugin } = require('@vuepress/plugin-nprogress');
 
 module.exports = {
-    base: "/",
+    base: "/webnote/",
     lang: "zh-CN",
     title: "webnote",
     description: "web note",
