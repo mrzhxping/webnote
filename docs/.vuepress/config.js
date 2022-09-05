@@ -44,7 +44,7 @@ module.exports = {
             },
             {
                 text: "Mac",       // 标题
-                link: "/mac/brew",        // 路径
+                link: "/mac/",        // 路径
                 collapsible: true,    // 是否可折叠
                 children: [
                     "brew",
