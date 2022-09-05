@@ -7,7 +7,7 @@
 
 ### 安装
 
-1、官方安装 &nbsp;&nbsp;&nbsp;&nbsp;<font size=2 color=#CCCCCC >(命令可能执行会很慢，建议开起命令行代理)</font>
+1、官方安装 &nbsp;&nbsp;&nbsp;&nbsp;<div size=2 color=#CCCCCC >(命令可能执行会很慢，建议开起命令行代理)</div>
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
