@@ -10,8 +10,8 @@ const { nprogressPlugin } = require('@vuepress/plugin-nprogress');
 module.exports = {
     base: "/webnote/",
     lang: "zh-CN",
-    title: "webnote",
-    description: "web note",
+    title: "WebNotes",
+    description: "一些笔记...",
     
 
     // 主题配置
@@ -41,7 +41,16 @@ module.exports = {
                 link: "/js/",        // 路径
                 collapsible: true,    // 是否可折叠
                 children: []
-            }
+            },
+            {
+                text: "Mac",       // 标题
+                link: "/mac/brew",        // 路径
+                collapsible: true,    // 是否可折叠
+                children: [
+                    "brew",
+                    "shell"
+                ]
+            },
         ]
     }),
 
